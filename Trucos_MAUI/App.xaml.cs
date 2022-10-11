@@ -65,7 +65,7 @@ public partial class App : Application
                     appWindow.Move(new Windows.Graphics.PointInt32((int)x, (int)y));
 
                     // El título hay que asignarlo antes de asignar los colores.
-                    appWindow.Title = "Crear Clases Tablas (MAUI)";
+                    appWindow.Title = "Trucos MAUI by elGuille";
                     // Este es el color que tiene en mi equipo la barra de título.
                     appWindow.TitleBar.BackgroundColor = Microsoft.UI.ColorHelper.FromArgb(255, 0, 120, 212);
                     appWindow.TitleBar.ForegroundColor = Microsoft.UI.Colors.White;
